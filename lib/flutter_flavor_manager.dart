@@ -1,4 +1,4 @@
-/// Flutter Flavor Manager - A tool for setting up flavors in Flutter projects
+/// Flutter Flavor Manager - A comprehensive tool for setting up and managing flavors (environments) in Flutter projects for both Android and iOS.
 ///
 /// This library provides a comprehensive solution for managing multiple flavors
 /// (environments) in your Flutter applications for both Android and iOS.
@@ -29,11 +29,13 @@
 /// ```
 library;
 
+// CLI
+export 'src/cli/cli_interface.dart';
+export 'src/cli/flavor_setup_command.dart';
 // Models
 export 'src/models/flavor_config.dart';
 export 'src/models/project_config.dart';
 export 'src/models/setup_result.dart';
-
 // Services
 export 'src/services/android_service.dart';
 export 'src/services/dart_service.dart';
@@ -41,16 +43,10 @@ export 'src/services/ios/ios_service.dart';
 export 'src/services/platform_service.dart';
 export 'src/services/post_setup_service.dart';
 export 'src/services/vscode_service.dart';
-
-// Validators
-export 'src/validators/input_validator.dart';
-export 'src/validators/project_validator.dart';
-
 // Utils
 export 'src/utils/console_utils.dart';
 export 'src/utils/file_utils.dart';
 export 'src/utils/string_utils.dart';
-
-// CLI
-export 'src/cli/cli_interface.dart';
-export 'src/cli/flavor_setup_command.dart';
+// Validators
+export 'src/validators/input_validator.dart';
+export 'src/validators/project_validator.dart';
