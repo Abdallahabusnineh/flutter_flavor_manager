@@ -1,0 +1,23 @@
+name: flutter_flavor_manager
+description: A comprehensive tool for setting up and managing flavors (environments) in Flutter projects for both Android and iOS.
+version: 1.0.0
+homepage: https://github.com/AbdallahAbusnineh/flutter_flavor_manager
+repository: https://github.com/AbdallahAbusnineh/flutter_flavor_manager
+issue_tracker: https://github.com/AbdallahAbusnineh/flutter_flavor_manager/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+executables:
+  flutter_flavor_manager:
+flutter:
+  uses-material-design: true
