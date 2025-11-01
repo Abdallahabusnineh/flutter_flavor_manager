@@ -239,6 +239,12 @@ This package includes comprehensive unit tests covering models, validators, and 
 
 See `TEST_SUMMARY.md` for details on the current test suite.
 
+## Branching Strategy
+
+- All new features and fixes should be implemented on **feature branches** based off `dev`.
+- Pull requests should target the **`dev` branch**.
+- `main` branch is reserved for production-ready code only and **does not accept direct PRs**.
+
 ## Submitting Changes
 
 ### Pull Request Process
