@@ -19,5 +19,17 @@ dev_dependencies:
 
 executables:
   flutter_flavor_manager:
+
 flutter:
   uses-material-design: true
+
+platforms:
+  android:
+  ios:
+
+topics:
+  - flutter
+  - cli
+  - flavors
+  - android
+  - ios
