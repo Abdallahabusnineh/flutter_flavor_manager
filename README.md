@@ -290,7 +290,7 @@ flutter test test/models/flavor_config_test.dart
 - ✅ Validators (Input validation, Bundle IDs, Flavor names)
 - ✅ Utilities (String transformations, Xcode ID generation)
 
-See [TEST_SUMMARY.md](TEST_SUMMARY.md) for detailed test documentation.
+See [TEST_SUMMARY.md](TEST_SUMMARY.md) for detailedk test documentation.
 
 ## 🤝 Contributing
 
