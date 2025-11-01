@@ -16,8 +16,8 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# VSCode (optional)
-#.vscode/
+# VSCode
+.vscode/
 
 # Flutter/Dart/Pub related
 .dart_tool/
@@ -26,27 +26,26 @@ migrate_working_dir/
 .packages
 .pub-cache/
 .pub/
-/build/
+build/
+**/doc/api/
 
-# Obfuscation related
-app.*.map.json
-
-# Coverage
+# Test & coverage
 coverage/
 .test_coverage.dart
 coverage.json
 lcov.info
 
-# iOS
-**/ios/Pods/
-**/ios/.symlinks/
-**/ios/Flutter/Flutter.framework
-**/ios/Flutter/Generated.xcconfig
-**/ios/Flutter/flutter_export_environment.sh
-**/ios/ServiceDefinitions.json
-**/ios/Runner/GeneratedPluginRegistrant.*
+# Platform folders (not needed for package)
+android/
+ios/
+web/
+windows/
+linux/
+macos/
+
+# Keep CLI entry points
+!/bin/
 
 # Metadata
 .metadata
 .fvm/
-
