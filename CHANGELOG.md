@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Validators**: Input and project state validation
 - **Utils**: String manipulation, file operations, console output
 - **Models**: Type-safe configuration objects
+- **Unit Test**: Comprehensive unit test suite (76 tests)
 
 ### Architecture
 
@@ -49,8 +50,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Architecture overview
 - Troubleshooting guide
 - Contributing guidelines
-
-## [Unreleased]
 
 ### Added
 
