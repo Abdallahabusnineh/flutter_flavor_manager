@@ -268,6 +268,30 @@ The tool creates flavor-specific build configurations (e.g., `Debug-dev`). Ensur
 2. Running `flutter clean`
 3. Invalidating caches (Android Studio)
 
+## 🧪 Testing
+
+This package includes comprehensive unit tests covering all core functionality. To run the tests:
+
+```bash
+# Run all tests
+flutter test
+
+# Run with coverage
+flutter test --coverage
+
+# Run specific test file
+flutter test test/models/flavor_config_test.dart
+```
+
+**Test Coverage:**
+
+- ✅ 76 unit tests
+- ✅ Models (FlavorConfig, ProjectConfig, SetupResult)
+- ✅ Validators (Input validation, Bundle IDs, Flavor names)
+- ✅ Utilities (String transformations, Xcode ID generation)
+
+See [TEST_SUMMARY.md](TEST_SUMMARY.md) for detailed test documentation.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these guidelines:

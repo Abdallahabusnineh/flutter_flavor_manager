@@ -65,3 +65,16 @@ coverage/
 coverage.json
 lcov.info
 
+# Platform directories (not needed for CLI package)
+android/
+ios/
+web/
+windows/
+linux/
+macos/
+
+# Metadata
+.metadata
+.fvm/
+
+

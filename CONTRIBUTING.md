@@ -218,9 +218,26 @@ Before submitting changes:
 - [ ] VSCode configuration generation works
 - [ ] Dart entry files are created correctly
 
-### Future: Automated Testing
+### Automated Testing
 
-We plan to add automated tests. Contributions to the test suite are highly welcome!
+This package includes comprehensive unit tests covering models, validators, and utilities. When adding new features:
+
+1. **Write tests first** (TDD approach recommended)
+2. **Run existing tests** to ensure nothing breaks:
+   ```bash
+   flutter test
+   ```
+3. **Add tests for your changes** in the appropriate test directory:
+
+   - `test/models/` - For data models
+   - `test/validators/` - For validation logic
+   - `test/utils/` - For utility functions
+   - `test/services/` - For service implementations (future)
+
+4. **Ensure all tests pass** before submitting PR
+5. **Aim for high coverage** of new code
+
+See `TEST_SUMMARY.md` for details on the current test suite.
 
 ## Submitting Changes
 
