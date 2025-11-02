@@ -36,16 +36,15 @@ coverage.json
 lcov.info
 
 # Platform folders (not needed for package)
-android/
-ios/
-web/
-windows/
-linux/
-macos/
+/android/
+/ios/
+/web/
+/windows/
+/linux/
+/macos/
 
 # Keep CLI entry points
 !/bin/
 
-# Metadata
-.metadata
+
 .fvm/

@@ -1,0 +1,24 @@
+# Files to exclude from pub.dev publishing
+# These are not needed in the published package
+
+# IntelliJ files
+*.iml
+
+# Flutter metadata
+.metadata
+
+# Platform folders
+/android/
+/ios/
+/web/
+/windows/
+/linux/
+/macos/
+
+# Nested package (if you want to exclude it)
+flutter_flavor_manager/
+
+# Metadata
+.metadata
+
+
